@@ -1,0 +1,17 @@
+version: '3'
+services:
+  flutter-app:
+    container_name: flutter-app
+    build:
+      context: .
+      dockerfile: ./flutter_TodoList/BuildAndTest.Dockerfile
+
+    # Additional configuration for the Flutter app container
+
+#   nodejs-project:
+#     container_name: nodejs-project
+#     build:
+#       context: .
+#       dockerfile: nodeJsTodoList/runAndTest.Dockerfile
+#     # Additional configuration for the Node.js project container
+
